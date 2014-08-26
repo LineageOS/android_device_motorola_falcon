@@ -16,6 +16,24 @@
       "revId": "5dd0b10f334b676362941d1259c07fe81bb15a90",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_6a1d110f",
+        "filename": "init/init_falcon.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-08-26T19:03:19Z",
+      "side": 1,
+      "message": "Why not? Brasil is not the only place that has dual-SIM variants, this is from retail Asia firmware. Changing build fingerprints is very cosmetic anyway.",
+      "parentUuid": "7a1b2928_4a0f75e1",
+      "revId": "5dd0b10f334b676362941d1259c07fe81bb15a90",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
