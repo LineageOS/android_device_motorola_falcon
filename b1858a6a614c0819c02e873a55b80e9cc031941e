@@ -16,6 +16,24 @@
       "revId": "b1858a6a614c0819c02e873a55b80e9cc031941e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fad55976_769075ed",
+        "filename": "configs/mixer_paths.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 437,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2015-01-26T23:43:18Z",
+      "side": 1,
+      "message": "It was, for consistency. Now looking at it again, it\u0027s likely better for a right handed person to have this \u0027reversed\u0027 like original. Mic on the top should be left channel and one on the bottom right channel.",
+      "parentUuid": "fad55976_966249d7",
+      "revId": "b1858a6a614c0819c02e873a55b80e9cc031941e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
