@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f6a8fd7_e03f38b3",
+        "filename": "libsensors/sensors.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2015-12-19T21:57:09Z",
+      "side": 1,
+      "message": "Whitespace",
+      "range": {
+        "startLine": 174,
+        "startChar": 66,
+        "endLine": 174,
+        "endChar": 67
+      },
+      "revId": "8bc5864b4d2e0640b3f1cd074403d51115fa4ebe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
