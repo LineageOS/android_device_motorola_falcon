@@ -27,9 +27,6 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Camera
 BOARD_GLOBAL_CFLAGS += -DCAMERA_VENDOR_L_COMPAT
 
-# Kernel
-TARGET_KERNEL_CONFIG := falcon_defconfig
-
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_falcon
 TARGET_RECOVERY_DEVICE_MODULES := libinit_falcon
