@@ -30,6 +30,9 @@ BOARD_GLOBAL_CFLAGS += -DCAMERA_VENDOR_L_COMPAT
 # Kernel
 TARGET_KERNEL_CONFIG := falcon_defconfig
 
+# Disable basic dexpreopt enabled from common repo
+WITH_DEXPREOPT := false
+
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_falcon
 TARGET_RECOVERY_DEVICE_MODULES := libinit_falcon
