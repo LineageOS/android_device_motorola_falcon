@@ -2,6 +2,7 @@
 <!--
 /*
 ** Copyright 2016, The CyanogenMod Project
+** Copyright 2017, The LineageOS Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -20,6 +21,15 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds.  Do not translate. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Minimum allowable screen brightness to use in a very dark room.
+         This value sets the floor for the darkest possible auto-brightness
+         adjustment.  It is expected to be somewhat less than the first entry in
+         config_autoBrightnessLcdBacklightValues so as to allow the user to have
+         some range of adjustment to dim the screen further than usual in very
+         dark rooms. The contents of the screen must still be clearly visible
+         in darkness (although they may not be visible in a bright room). -->
+    <integer name="config_screenBrightnessDark">10</integer>
 
     <!-- The RadioAccessFamilies supported by the device.
          Empty is viewed as "all".  Only used on devices which
