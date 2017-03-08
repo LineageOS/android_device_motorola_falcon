@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,5 +22,7 @@ set -e
 export DEVICE=falcon
 export DEVICE_COMMON=msm8226-common
 export VENDOR=motorola
+
+export DEVICE_BRINGUP_YEAR=2013
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
