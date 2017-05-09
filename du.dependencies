@@ -1,0 +1,62 @@
+[
+  {
+    "repository":   "lucastracq/android_device_motorola_msm8226-common",
+    "target_path":  "device/motorola/msm8226-common",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "lucastracq/android_kernel_motorola_msm8226",
+    "target_path":  "kernel/motorola/msm8226",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "lucastracq/android_vendor_motorola",
+    "target_path":  "vendor/motorola",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "DirtyUnicorns/android_system_qcom",
+    "target_path":  "system/qcom",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "DirtyUnicorns/android_hardware_qcom_fm",
+    "target_path":  "hardware/qcom/fm",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "DirtyUnicorns/android_packages_apps_FMRadio",
+    "target_path":  "packages/apps/FMRadio",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "DirtyUnicorns/android_external_ant-wireless_antradio-library",
+    "target_path":  "external/ant-wireless/antradio-library",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "DirtyUnicorns/android_external_ant-wireless_ant_service",
+    "target_path":  "external/ant-wireless/ant/service",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "DirtyUnicorns/android_external_ant-wireless_ant_native",
+    "target_path":  "external/ant-wireless/ant/native",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "DirtyUnicorns/android_external_bson",
+    "target_path":  "external/bson",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "DirtyUnicorns/android_external_connectivity",
+    "target_path":  "external/connectivity",
+    "branch":       "n7x-caf"
+  },
+  {
+    "repository":   "DirtyUnicorns/android_vendor_qcom_binaries",
+    "target_path":  "vendor/qcom/binaries",
+    "branch":       "n7x-caf"
+  }
+]
