@@ -33,6 +33,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# Unified device props
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
+    ro.build.product \
+    ro.product.model \
+    ro.product.device \
+    ro.build.description \
+    ro.build.fingerprint
+
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
